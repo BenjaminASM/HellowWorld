@@ -1,0 +1,12 @@
+/*jslint node: true, indent: 2, stupid: true */
+'use strict';
+var fs = require('fs');
+const server = require('..');
+
+module.exports = function (server) {
+  fs.readdirSync('./routes').forEach(function (file) {
+    if (file.substr(-3, 3) === '.js' && file !== 'index.js') {
+      require('./' + file.replace('.js', ''))(server);
+    }
+  });
+};

@@ -1,0 +1,19 @@
+{
+    "usuarios": [
+        {
+            "id": 1,
+            "nombre": "Ash",
+            "apellido": "Ketchum"
+        },
+        {
+            "id": 2,
+            "nombre": "Antony",
+            "apellido": "Stark"
+        },
+        {
+            "id": 3,
+            "nombre": "Bruce",
+            "apeliido": "Wayne"
+        }
+    ]
+}
