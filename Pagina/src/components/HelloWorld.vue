@@ -55,7 +55,7 @@ export default {
         console.log(response.data)
       })
       document.getElementById("titulo")
-      .innerHTML = "Hola"+" "+ this.user[1].nombre
+      .innerHTML = "Hellow"+" "+ this.user[0].nombre
     }
   },
 };
